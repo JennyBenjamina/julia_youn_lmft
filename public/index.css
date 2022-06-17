@@ -1,21 +1,29 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Joan&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
 
 @font-face {
   font-family: etna;
   src: url(/fonts/Fontspring-DEMO-etna-regular.otf);
 }
 
+@font-face {
+  font-family: Winchester;
+  src: url(/fonts/Winchester.otf.otf);
+}
+
 body {
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
   padding-bottom: 3rem;
   color: #5a5a5a;
   color: black;
   background-color: #fbf8b9;
   /* font-family: 'Quicksand', sans-serif; */
   /* font-size: 1.5rem; */
-  font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: 'Winchester', sans-serif;
+  letter-spacing: 3px;
 }
 
 .col-md-7 {
@@ -114,7 +122,7 @@ body {
 }
 .carousel {
   margin-bottom: 4rem;
-  top: -48px;
+  /* top: -48px; */
 }
 
 .carousel-indicators [data-bs-target] {
@@ -125,8 +133,9 @@ body {
 }
 
 /* .carousel-caption {
-  top: 190px;
+  color: lightgray;
 } */
+
 /* end carousel  */
 
 /* quote */
@@ -219,6 +228,45 @@ img {
 .julia {
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-60vw + 50%);
+}
+
+/* form  */
+.title {
+  position: absolute;
+  top: -47px;
+  /* left: 50%; */
+}
+
+.title-contact {
+  margin: -10px;
+}
+
+.title-message {
+  font-family: 'Great Vibes', Sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.contact {
+  font-size: 2rem;
+  margin: auto 0;
+}
+
+.contact a {
+  color: black;
+}
+
+.wrap {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+  margin: 100px auto 0px auto;
+  padding: 50px;
+  justify-content: space-between;
+}
+.form {
+  width: 60%;
 }
 
 /* media queries  */
