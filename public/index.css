@@ -95,10 +95,11 @@ body {
 }
 
 .quote-title {
-  font-size: 4.375rem;
+  /* font-size: 4.375rem; */
+  font-size: 5vw;
   font-weight: 300;
   font-style: italic;
-  line-height: 85px;
+  line-height: 120%;
   width: 70%;
   margin: 0 auto;
 }
@@ -106,7 +107,8 @@ body {
 .quote-author {
   padding: 40px 300px 0px 0px;
   text-align: right;
-  font-size: 1.875rem;
+  /* font-size: 1.875rem; */
+  font-size: 2vw;
 }
 /* end quote */
 
@@ -161,4 +163,37 @@ img {
   /* make these 500 x 500 */
   width: 100%;
   height: 100%;
+}
+
+/* media queries  */
+@media screen and (max-width: 600px) {
+  .social {
+    text-align: center;
+  }
+  .rights {
+    display: block;
+  }
+  .copyright {
+    text-align: center;
+  }
+
+  /* paragraph  */
+  .col-md-7 p {
+    padding: 0px 30px;
+  }
+
+  .order-md-2 p {
+    padding: 0px 30px;
+  }
+  /* heading  */
+  #about {
+    margin-left: 30px;
+  }
+  .order-md-2 h2 {
+    padding: 0px;
+  }
+
+  .featurette img {
+    border-radius: 0%;
+  }
 }
