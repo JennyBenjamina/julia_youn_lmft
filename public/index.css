@@ -26,7 +26,7 @@ body {
   letter-spacing: 3px;
 }
 
-.col-md-7 {
+.featurette .col-md-7 {
   margin: 0rem auto 5rem auto;
 }
 
@@ -265,11 +265,39 @@ img {
   padding: 50px;
   justify-content: space-between;
 }
-.form {
+/* .form {
   width: 60%;
-}
+} */
 
 /* media queries  */
+@media screen and (max-width: 1082px) {
+  .quote-title {
+    font-size: 2.375rem;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 45px;
+    margin: 0 auto;
+  }
+
+  .quote-author {
+    padding: 20px 0px;
+  }
+
+  .contact {
+    font-size: 1.5rem;
+  }
+  .contact h4 {
+    font-size: 1rem;
+  }
+  .title {
+    top: -42px;
+  }
+
+  .wrap {
+    padding: 30px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .social {
     text-align: center;
@@ -326,4 +354,23 @@ img {
     width: 3rem;
     height: 3rem;
   }
+  .title {
+    top: -33px;
+  }
+  .title-message {
+    font-size: 30px;
+  }
+
+  .wrap {
+    padding: 9px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .title {
+    left: 6%;
+  }
+  /* .wrap {
+    padding: 9px;
+  } */
 }

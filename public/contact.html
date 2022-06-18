@@ -95,7 +95,7 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About Me</a>
+                            <a class="nav-link" href="index.html">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Me</a>
@@ -111,29 +111,30 @@
     </header>
     <div class="container">
 
-        <div class="wrap d-flex">
+        <div class="wrap row">
             <div class="title">
                 <h3 class="title-contact">CONTACT</h3>
                 <h3 class="title-message">we want to hear from you</h3>
             </div>
 
-            <form class="form">
+            <form class="form col-md-7" action="connect.php" post="post">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" class="form-control" placeholder="Name">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
                 </div>
 
 
                 <div class="form-group">
-                    <label class="mt-3" for="message">Send me a message</label>
-                    <textarea class="form-control" id="message" rows="3" placeholder="Hi Julia..."></textarea>
+                    <label for="message" class="mt-3" for="message">Send me a message</label>
+                    <textarea class="form-control" id="message" name="message" rows="3"
+                        placeholder="Hi Julia..."></textarea>
                 </div>
                 <button type="submit" class="btn btn-outline-dark my-3">Send</button>
             </form>
 
-            <div class="contact text-center">
+            <div class="contact text-center col-md-5">
                 <div class="contact-phone-icon">
                     <i class="fa-solid fa-phone"></i>
                 </div>
